@@ -1,0 +1,11 @@
+Copy code
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.properties
+*.swp
+*.idea/
+.DS_Store
