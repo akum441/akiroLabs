@@ -1,3 +1,21 @@
 .generateButton{
     margin:10px;
 }
+
+.token-container {
+    position: relative; /* This makes sure the absolute positioning of children is relative to this container */
+    display: inline-block; /* To size the container according to its content */
+}
+
+#token-flag {
+    position: absolute; /* This allows us to position the flag anywhere within the token-container */
+    top: 0; /* Position it at the top */
+    left: 0; /* Position it at the right */
+    margin: 10px; /* Some padding for aesthetics */
+    font-size: 0.8em; /* Slightly smaller font size */
+}
+
+.Ctitle{
+    font-size: 1.2rem !important;
+    margin-bottom: 10px !important;
+}
